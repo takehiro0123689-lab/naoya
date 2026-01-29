@@ -16,4 +16,4 @@ async def hello(ctx):
     await ctx.send("こんにちは！")
 
 bot.run(os.environ["DISCORD_TOKEN"])
-
+print("BOT FILE STARTED")
